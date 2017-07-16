@@ -4,13 +4,13 @@
 
 #### Useful scripts
 1. Startup docker container
-> docker-compose up -d
+	> docker-compose up -d
 1. Run npm install
-> docker-compose exec app npm install
+	> docker-compose exec app npm install
 1. Build and compile project
-> docker-compose exec app npm run-script build
+	> docker-compose exec app npm run-script build
 1. Run project
-> docker-compose exec app npm start
+	> docker-compose exec app npm start
 
 
 
