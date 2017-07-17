@@ -9,6 +9,8 @@
 	> docker-compose exec app npm install
 1. Build and compile project
 	> docker-compose exec app npm run-script build
+1. Or compile in watch mode
+	> docker-compose exec app npm run-script watch
 1. Run project
 	> docker-compose exec app npm start
 
