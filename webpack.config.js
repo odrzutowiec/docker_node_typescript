@@ -1,15 +1,18 @@
+const webpack = require('webpack');
 const path = require('path');
+const fs = require('fs');
 
 module.exports = {
 	entry: './src/index.ts',
+	target: 'node',
 	output: {
-		filename: './dist/index.js'
+		path: __dirname + '/dist',
+		filename: 'index.js'
 	},
 	module: {
 		rules: [
 			{
 				test: /\.ts$/,
-				exclude: /node_modules/,
 				loader: 'babel-loader!ts-loader'
 			}
 		]

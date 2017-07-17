@@ -70,11 +70,19 @@
 "use strict";
 
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+Object.defineProperty(exports, "__esModule", { value: true });
+const os = __webpack_require__(1);
+let currPath = os.arch();
+function hello(name) {
+    console.log(`Hello ${name}: ${currPath}`);
+}
+hello('czećś');
 
-var App = function App() {
-  _classCallCheck(this, App);
-};
+/***/ }),
+/* 1 */
+/***/ (function(module, exports) {
+
+module.exports = require("os");
 
 /***/ })
 /******/ ]);
