@@ -71,15 +71,26 @@
 
 
 Object.defineProperty(exports, "__esModule", { value: true });
-const os = __webpack_require__(1);
+__webpack_require__(1);
+console.log('hello');
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", { value: true });
+const os = __webpack_require__(2);
 let currPath = os.arch();
 function hello(name) {
-    console.log(`Hello ${name}: ${currPath}`);
+  console.log(`Hello ${name}`);
 }
 hello('czećś');
 
 /***/ }),
-/* 1 */
+/* 2 */
 /***/ (function(module, exports) {
 
 module.exports = require("os");

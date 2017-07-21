@@ -1,9 +1,3 @@
-import * as os from 'os';
+import './test.ts';
 
-let currPath = os.arch();
-
-function hello(name: string) {
-	console.log(`Hello ${name}: ${currPath}`);
-}
-
-hello('czećś');
+console.log('hello');

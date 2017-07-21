@@ -2,7 +2,11 @@
 	"compilerOptions": {
 		"target": "es2017",
 		"moduleResolution": "node",
-		"noEmitOnError": true
+		"noEmitOnError": true,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"strictNullChecks": true
 	},
 	"types": [
 		"node"
